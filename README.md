@@ -63,3 +63,8 @@ Class-wise Performance:
 For future models, I would experiment with better fine tuning the model like data augmentation, different hyperparameters, and getting more images in my data.
 
 Finally, I ran inferences on sample images to see how my model worked (some examples are included in the repo). It worked okay, but not as great as some the val results might have indicated.
+
+
+Part 2 is fairly straightforward and I marked up the .ipynb file / PDF well so please refer to those files for a detailed analysis. But, I cleaned the Tesla data for missing values, duplicates, and changed data types as needed. I also removed irrelevant columns and columns with excessive amounts of missing data.
+
+Once cleaned, I performed EDA on the data to analyze different aspects of deaths and distributions. The main challenge with this analysis was when looking at the distribution across models we had 181 accidents where the model value was missing so this analysis was missing a lot of data.
