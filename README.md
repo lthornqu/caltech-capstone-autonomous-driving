@@ -7,7 +7,7 @@ Objective Part 1: Develop an AI model using a deep learning framework that predi
 
 Problem Statement 2: Tesla, Inc. is an American multinational automotive and artificial intelligence company. In October 2020, Tesla started a full self-driving capability beta program in the United States. Tesla has over 100k people in this program.
 
-Objective PArt 2: As the second part of this project, you need to analyze the usage of autopilot and its effect on road safety.
+Objective Part 2: As the second part of this project, you need to analyze the usage of autopilot and its effect on road safety.
 
 
 Writeup:
@@ -25,6 +25,7 @@ We had significantly more data for the labels than images that matched, so I fil
 The final step for preparing the dataset for training was to create my YAML file. I included a screenshot of what my file looks like in the repo.
 
 Now I could move on to creating my CNN architecture. I originally started with a YOLOv5 model, and ran into a lot of errors. As I was looking around for solutions, I realized an updated model existed so I switched my model over to a YOLOv8. Since my file paths were already set and named, many of them still had YOLOv5 in their title but it didn’t matter for the actual training of the model.
+
 I ran 5 epochs locally on my machine and it took 18 hours. I looked at ways to make this process faster and setting up virtual environments, but I decided to just keep this model for simplicity purposes. The results are attached in screenshots and in my source code, but below is a summary.
 
 Overall Performance:
