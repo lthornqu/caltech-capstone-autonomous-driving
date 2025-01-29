@@ -9,6 +9,16 @@ Problem Statement 2: Tesla, Inc. is an American multinational automotive and art
 
 Objective Part 2: As the second part of this project, you need to analyze the usage of autopilot and its effect on road safety.
 
+Key Tools Used:
+- Python
+- Pandas
+- Shutil
+- Scikit-Learn
+- MatplotLib
+- NumPy
+- Seaborn
+- Ultralytics YOLO
+
 
 Writeup:
 
@@ -64,6 +74,7 @@ For future models, I would experiment with better fine tuning the model like dat
 
 Finally, I ran inferences on sample images to see how my model worked (some examples are included in the repo). It worked okay, but not as great as some the val results might have indicated.
 
+-
 
 Part 2 is fairly straightforward and I marked up the .ipynb file / PDF well so please refer to those files for a detailed analysis. But, I cleaned the Tesla data for missing values, duplicates, and changed data types as needed. I also removed irrelevant columns and columns with excessive amounts of missing data.
 
